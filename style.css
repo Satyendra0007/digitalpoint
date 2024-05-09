@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg-primary {
+    @apply bg-violet-900
+  }
+
+  .text-primary {
+    @apply text-violet-900
+  }
+}
+
+
+@layer utilities {
+  .stop-scrolling {
+    @apply h-full overflow-hidden
+  }
+}
