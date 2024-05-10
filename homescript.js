@@ -18,4 +18,6 @@ const prevSlide = () => {
 
 // setInterval(nextSlide, 3000);
 
+console.log("working")
+
 
